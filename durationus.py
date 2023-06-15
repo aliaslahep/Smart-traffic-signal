@@ -17,12 +17,13 @@ def calculate_duration(num_vehicles,green_lane):
 def traffic_light_controller(x):
 
      duration_total = calculate_duration(vc+vc1+vc2+vc3, x)
-     print(f"North-South: {duration_total} seconds")
+     print(f"duration: {duration_total} seconds")
      print("Adjusting traffic light durations...")
-     time.sleep(5)
+     return duration_total
+     #time.sleep(5)
 
 # Run the traffic light controller
 
-traffic_light_controller(vc)
+
 
 

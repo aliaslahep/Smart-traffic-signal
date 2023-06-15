@@ -11,7 +11,7 @@ class VehicleDetector:
 
 
         # Allow classes containing Vehicles only
-        self.classes_allowed = [2, 3, 5, 6, 7, 8]
+        self.classes_allowed = [2, 3, 5, 7]
 
 
     def detect_vehicles(self, img):

@@ -13,7 +13,7 @@ while (True):
     currentframe += 1
 
     if cv2.waitKey(1) & currentframe == 1:
-        break
+         break
 
 webCam.release()
 
